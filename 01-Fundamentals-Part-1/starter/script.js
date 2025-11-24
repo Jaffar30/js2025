@@ -236,3 +236,35 @@
 // differant between exprecsions and statement
 // expresions produce value while statements make decisions not value by themselfs
 // Section15
+
+// Section16
+// Ternary operator(conditional operator)
+// ternary mean3 parts : condition-if-else
+// an operator is an expression so produce value
+// so you can use it in string and stuff
+// similar to if else statement but in one line
+// const age = 23;
+// age >= 18 ? console.log("adult") : console.log("child");
+// console.log("second way");
+// const drink = age >= 18 ? "wine🍷" : "water💧";
+// console.log(drink);
+// console.log("third way");
+// console.log(`I like to drink ${age >= 18 ? 'wine🍷':'water💧'}`);
+// // Section16
+
+// Assignment The conditional (Ternary) Operator 
+// skip alrady easy
+// Assignment The conditional (Ternary) Operator
+
+// Note
+// you can use multiople ternary operators inside each others
+// let score = 75;
+
+// let result = score >= 90 ? "A"
+//            : score >= 80 ? "B"
+//            : score >= 70 ? "C"
+//            : score >= 60 ? "D"
+//            : "F";
+// console.log(result);
+// Note
+
