@@ -38,3 +38,25 @@
 // }
 // console.log(typeof friends);
 // section3
+
+// section4
+// array methods
+// push add elements to the end of an array : also return something the length of the new array
+// add to the beggining of an array unsift also return the length of the new array
+// pop remove last element in the array and return the element that get removed
+// shift remove first element
+// in which position a certain element is in the array
+// indexOf("element")
+// includes return true if element is in the array
+// and false if not
+// const friends = ['Ali','Ahmed','Hasan'];
+// let x = friends.push("Jaffar");
+// console.log(friends);
+// console.log(x);
+// let y = friends.unshift("John");
+// let s = friends.pop();
+// console.log(s);
+// let t = friends.shift();
+// console.log(friends.indexOf("Hasan"));
+// console.log(friends.includes("Hasan"));
+// section4
