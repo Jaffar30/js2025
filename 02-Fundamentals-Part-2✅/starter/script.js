@@ -60,3 +60,41 @@
 // console.log(friends.indexOf("Hasan"));
 // console.log(friends.includes("Hasan"));
 // section4
+
+// section5
+// objects  ---> key(properties) --- values
+// Object Literal syntax
+// const jaffar = {
+//     firstName:"Jaffar",
+//     lastName:"Ahmed",
+//     age:2037-2002,
+//     job:"Developer",
+//     friends:["Ali","Hasan","Ahmed"]
+// };
+// console.log(jaffar['firstName']); 
+// console.log(jaffar['name']);
+// console.log(jaffar.lastName);
+// section5
+
+// section6
+// object methods
+const jaffar = {
+    firstName:"Jaffar",
+    lastName:"Ahmed",
+    age:2002,
+    job:"Developer",
+    friends:["Ali","Hasan","Ahmed"],
+    hasDriverLicense:true,
+    calcAge:function(){
+        return 2037-this.age
+    },
+    calc2Age:function(birthYear){
+        return 2037-birthYear
+    }
+};
+
+console.log(jaffar.calcAge());
+console.log(jaffar["calc2Age"](jaffar['age']));
+console.log("test");
+console.log("test3");
+// section6
